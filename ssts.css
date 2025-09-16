@@ -1,0 +1,475 @@
+/*h1{
+    font-size:50px;
+    text-align: center;
+}
+h2{
+    font-size:40px;
+    font-weight:normal;
+}
+p{
+    font-size:30px;
+    font-family:'Times New Roman';
+    line-height:45px;;
+}
+
+
+p {
+	font-family: "Times New Roman";
+	font-size: 13px;
+	line-height: 20px;
+}
+p{
+    font: 13px/20px "Times New Roman";
+}
+
+p {
+	width: 300px;
+	font-family: Arial;
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p{
+    width:300px;
+    color: red;
+    font: bold 40px Arial;
+}
+
+p {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}
+
+p{
+    text-indent: 50px;
+    font: italic bold 40px/60px Arial;
+}
+
+p{
+    text-indent:50px;
+    color: green;
+    text-decoration:none;
+}*/
+/*body{
+    
+    width: 500px;
+}
+h1{
+    text-align: center;
+    color:blue;
+    /*font-family: Arial;*/
+    /*font-size: 40px;
+}
+h2{
+    text-align: center;
+    color:green;
+    font-weight: normal;
+    font-size: 30px;
+}
+p{
+    font-family: Arial;
+    text-indent: 40px;
+    text-align: justify;
+    
+    line-height: 25px;
+}
+i{
+    color: green;
+}
+ul{
+    width: 400px;
+    text-align: justify;
+    line-height: 20px;
+}*/
+
+
+/*ul li i{
+    color: red;
+}
+p i{
+    color:green;
+}*/
+
+/*p b i{
+    color: red;
+}*/
+
+/*li > b{
+    color: red;
+}*/
+
+/*.odd, .eee{
+    color: red;
+}
+.eve{
+    color: green;
+}
+
+.xxx{
+    font-size: 30px;
+}
+
+h2.header{
+    font-size: 40px;
+}
+h3.header{
+    font-size: 30px;
+}
+
+.eee i{
+    color: red;
+}*/
+
+/*.a .eee{
+    color: red;
+}*/
+
+/* p.eee - такой селектор выбирает абзацы с классом eee. 
+А вот если я сделаю так: p .eee, то выберу все элементы с классом eee, находящиеся внутри абзацев.*/
+
+/*Атрибут id используется в том случае, когда необходимо подчеркнуть уникальность элемента. 
+Классы используются тогда, когда предполагается, что таких элементов может быть много, даже если он сейчас один.
+*/
+
+/*#elem1{
+    color: red;
+}
+#elem2{
+    color: blue;
+}*/
+
+/*#elem h2{
+    color: red;
+}
+
+#elem .text{
+    color: red;
+}
+
+#elem p.text{
+    color: red;
+}*/
+
+
+/*.bbb{
+    color: yellow;
+}
+.zzz{
+    color: green;
+}*/
+/*.bbb.zzz{
+    color: blue;
+}*/
+
+/*#block p{
+    color: red;
+}*/
+
+/*
+#block .bbb{
+    color: red;
+}
+
+p.bbb{
+    color: red;
+}
+
+
+h2.bbb{
+    color: red;
+}
+
+#block p.bbb{
+    color: red;
+}
+
+.bbb, .xxx{
+    color: red;
+}
+
+p.bbb, h2.xxx{
+    color: red;
+}
+
+#block p.bbb, #block p.xxx{
+    color: red;
+}*/
+
+
+/*#elem + li{
+    color: red;
+}*/
+
+/*#elem ~ li{
+    color: red;
+}
+
+main * p{
+    color: red;
+}*/
+
+/*[title]{
+    color: red;
+}
+
+p[title]{
+    color: red;
+}
+
+p[title="hello"]{
+    color: red;
+}
+
+a[href^="http://"]{
+    color: red;
+}/*начинается*/
+
+/*a[href$=".html"]{
+    color: red;
+}
+
+p[title*="hello"]{
+    color: red;
+}
+
+p[title|="top"]{
+    color: red;
+}*/
+
+/*состояние, когда на ссылку навели курсор мышки - a:hover
+a:link - непосещенная ссылка
+a:visited - посещенная ссылка
+a:active - на элемент нажали мышкой, но не отпустили
+порядок: link visited hover active   LoVeHAte
+Псевдоклассы ссылок наследуют друг от друга.
+Часто состояния :link и :visited объединяют вместе через запятую:
+a:link, a:visited {
+	color: red;
+}
+В таком случае можно их вообще и не указывать:
+
+a {
+	color: red;
+}
+
+*/
+
+/*a:link{
+    color:blue;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}*/
+
+/*a {
+    color: blue;
+    text-decoration:none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}*/
+
+/*li:first-child{
+    color: red;
+}
+li:last-child{
+    color: green;
+}*/
+
+/*li:ntn-child(4){
+    color: red;
+}*/
+
+/*li:ntn-child(3){
+    color: red;
+}
+
+li:ntn-child(odd){
+    color: red;
+}
+li:ntn-child(even){
+    color: green;
+}
+
+li:ntn-child(3n){
+    color:red;
+}
+
+li:ntn-last-child(2){
+    color:red'
+}
+
+li:only-child{
+    color: red;
+}
+
+li:empty{
+    color:blue;
+}*/
+
+/*:first-child выбирает элемент только если он первый у родителя.
+
+:first-of-type выбирает первый элемент своего типа, даже если перед ним есть другие элементы.*/
+
+/*h1:first-of-type{
+    color: red;
+}
+h2:last-of-type{
+    color: red;
+}*/
+/*odd нечетные even четные */
+
+/*li:ntn-of-type(3){
+    color: red;
+}*/
+/*
+:nth-child учитывает все соседние элементы, независимо от типа.
+
+:nth-of-type учитывает только элементы указанного типа.
+*/
+
+/*
+nth-last-of-type выбирает элемент, который является n-ным потомком родителя заданного типа, отсчитывая с конца.
+Псевдокласс only-of-type выбирает элемент, который является единственным потомком заданного типа.
+Псевдокласс not задает отрицание, к примеру, p:not(.last) означает выбрать все абзацы, у которых нет класса last. Вложенные not не работают.
+*/
+
+/*li:not(:first-child) {
+	color: red;
+}
+
+li:not(.elem){
+    color:red;
+}
+
+li:not(:first-child){
+    color:red;
+}
+
+li:not(:first-child):not(:last-child){
+
+}*/
+
+
+/*div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 61, 61);
+}*/
+
+body {
+    /*margin: 0;
+    padding: 0;*/
+    
+    /*margin:0;*/
+    background-color: #d0d0d0; /* Светло-серый фон вокруг листа */
+    display: flex;
+    justify-content: center; /* Центрируем лист по горизонтали */
+    align-items: center;     /* Центрируем лист по вертикали */
+    min-height: 100vh;       /* Занимаем всю высоту окна браузера */
+    
+    /*font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.5;*/
+}
+.container {
+    display: flex;
+
+    width: 210mm;           /* Ширина листа А4 в миллиметрах */
+    height: 297mm;          /* Высота листа А4 в миллиметрах */
+    background-color: white; /* Белый фон листа */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Тень для объема, как у настоящего листа */
+    padding-left: 10mm;          /* Внутренние поля (отступы от краев листа) */
+    padding-right: 10mm;
+    
+    box-sizing: border-box; /* Важно! Чтобы padding не увеличивал общие размеры блока */
+    overflow: hidden;
+}
+.bok_panel {
+    width: 250px;
+    background-color: #fee7d2;
+}
+.bok_panel img {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width:200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+.bok_panel h3 {
+    font-family: Georgia;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:#333333;
+}
+.bok_panel hr {
+    /*height: /*2px;*/
+    background-color: grey;
+}
+.bok_panel .text {
+    font-family: Georgia;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:#333333;
+    /*line-height: 50 px;*/
+    font-size: 13px;
+
+}
+
+.main_panel {
+    flex: 1;
+    padding-left: 40px;
+    padding-right: 25px;
+    /*background-color: aquamarine;*/
+}
+
+.main_panel .name {
+    font-family: Georgia;
+    width: 70 px;
+    height: 300 px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.main_panel .answers {
+    font-family: Georgia;
+    color:#333333;
+    /*padding-top: 50px;*/
+    padding-top: 5px;
+}
+
+/*.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 50px;
+}
+.block_1 {
+    margin-left: 100px;
+}
+.block_3 {
+    flex-basis: 100%;
+}
+
+.block_3 hr.line {
+    border: none;
+    background-color:grey;
+    height: 3px;
+}*/
